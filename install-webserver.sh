@@ -8,6 +8,7 @@ git clone https://github.com/etango/Application-setup.git
 my ./Application-setup/images  /var/www/html/images
 mv ./Application-setup/*.html /var/www/html/html
 mv ./Application-setup/*.php /var/www/html
+mv ./Application-setup/*.sh /var/www/html
 
 sudo curl -sS https://getcomposer.org/installer | php 7> /tmp/getcomposer.txt
 
