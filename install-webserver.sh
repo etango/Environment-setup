@@ -20,6 +20,6 @@ sudo php /var/www/html/setup.php &> /tmp/database-setup.txt
 
 echo "Hello" > /tmp/hello.txt
 
-
+sudo apt-get install php5 php5-imagick
 
 
